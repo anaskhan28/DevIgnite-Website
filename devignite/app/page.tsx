@@ -5,6 +5,7 @@ import HackathonTracks from '@/components/Tracks/HackathonTracks';
 import Prize from '@/components/Prize/Prize';
 import Teams from '@/components/Teams/Teams';
 import FAQ from '@/components/FAQ/FAQ';
+import ImageSlider from '@/components/ImageSlider/ImageSlider';
 import Footer from '@/components/Footer/Footer';
 import AboutUs from '@/components/AboutUs/AboutUs';
 import Schedule from '@/components/schedule/Schedule';
@@ -23,9 +24,11 @@ export default function Home() {
       <Partners />
       <Ikpartners />
       <CommunityPartners />
+      <ImageSlider />
+
       <HackathonTracks />
       <Prize />
-      <Schedule />
+      {/* <Schedule /> */}
       <Teams />
       <FAQ />
       <AboutUs />
